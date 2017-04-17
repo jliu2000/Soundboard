@@ -22,15 +22,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stock Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-si-J5v">
-                                <rect key="frame" x="166" y="72" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stock Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2d-si-J5v">
+                                <rect key="frame" x="134" y="72" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o2d-si-J5v" firstAttribute="leading" secondItem="6cb-sz-wDN" secondAttribute="leadingMargin" constant="118" id="2yK-uy-QFZ"/>
+                            <constraint firstItem="o2d-si-J5v" firstAttribute="top" secondItem="Unk-Dj-YoB" secondAttribute="bottom" constant="8" id="SCi-kt-27H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o2d-si-J5v" secondAttribute="trailing" constant="119" id="gJg-LM-Zmd"/>
+                            <constraint firstItem="jII-Lj-lVU" firstAttribute="top" secondItem="o2d-si-J5v" secondAttribute="bottom" constant="574" id="mVD-dx-gFD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PDf-Xz-ZD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -95,6 +100,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRf-e7-hvH">
+                                <rect key="frame" x="161" y="453" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -132,25 +144,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comedians/funny bytes?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRk-Xa-Ak8">
-                                <rect key="frame" x="166" y="72" width="190" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOd-E3-vCX">
+                                <rect key="frame" x="127" y="156" width="120" height="30"/>
+                                <state key="normal" title="Funny Category 1"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comedians/funny bytes?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRk-Xa-Ak8">
+                                <rect key="frame" x="92" y="72" width="190" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOd-E3-vCX">
-                                <rect key="frame" x="127" y="156" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Funny Category 1"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iRk-Xa-Ak8" firstAttribute="leading" secondItem="HdW-FJ-DiN" secondAttribute="leadingMargin" constant="76" id="5eM-OA-9Ky"/>
+                            <constraint firstItem="iRk-Xa-Ak8" firstAttribute="top" secondItem="2QH-qd-enV" secondAttribute="bottom" constant="8" id="R8W-FJ-5TF"/>
+                            <constraint firstItem="hOd-E3-vCX" firstAttribute="top" secondItem="iRk-Xa-Ak8" secondAttribute="bottom" constant="63" id="RfM-K4-1X1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iRk-Xa-Ak8" secondAttribute="trailing" constant="77" id="aGT-CZ-1FI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2R3-g9-Pp4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="134" y="1184"/>
+            <point key="canvasLocation" x="177" y="1180"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TvT-jM-saI">
@@ -164,20 +180,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Actors/Artists?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vh-08-rbT">
-                                <rect key="frame" x="166" y="72" width="113" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actors/Artists?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vh-08-rbT">
+                                <rect key="frame" x="139" y="72" width="113" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byc-SW-cV4">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byc-SW-cV4">
                                 <rect key="frame" x="151" y="158" width="89" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Actor/Artist 1"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Vh-08-rbT" firstAttribute="leading" secondItem="W1c-yD-LVK" secondAttribute="leadingMargin" constant="123" id="7lX-sl-onq"/>
+                            <constraint firstItem="Byc-SW-cV4" firstAttribute="top" secondItem="6Vh-08-rbT" secondAttribute="bottom" constant="65" id="Xw2-ea-oOc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Vh-08-rbT" secondAttribute="trailing" constant="107" id="bWd-sj-8L6"/>
+                            <constraint firstItem="6Vh-08-rbT" firstAttribute="top" secondItem="50O-ri-zWC" secondAttribute="bottom" constant="8" id="kHy-vT-C6J"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffQ-ML-E0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
