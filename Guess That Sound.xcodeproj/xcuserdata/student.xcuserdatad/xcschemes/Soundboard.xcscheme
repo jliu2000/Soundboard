@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F0471971E9E8BE900002A40"
-               BuildableName = "Soundboard.app"
-               BlueprintName = "Soundboard"
-               ReferencedContainer = "container:Soundboard.xcodeproj">
+               BuildableName = "Guess That Sound.app"
+               BlueprintName = "Guess That Sound"
+               ReferencedContainer = "container:Guess That Sound.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F0471AB1E9E8BEA00002A40"
-               BuildableName = "SoundboardTests.xctest"
-               BlueprintName = "SoundboardTests"
-               ReferencedContainer = "container:Soundboard.xcodeproj">
+               BuildableName = "Guess That SoundTests.xctest"
+               BlueprintName = "Guess That SoundTests"
+               ReferencedContainer = "container:Guess That Sound.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F0471B61E9E8BEA00002A40"
-               BuildableName = "SoundboardUITests.xctest"
-               BlueprintName = "SoundboardUITests"
-               ReferencedContainer = "container:Soundboard.xcodeproj">
+               BuildableName = "Guess That SoundUITests.xctest"
+               BlueprintName = "Guess That SoundUITests"
+               ReferencedContainer = "container:Guess That Sound.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F0471971E9E8BE900002A40"
-            BuildableName = "Soundboard.app"
-            BlueprintName = "Soundboard"
-            ReferencedContainer = "container:Soundboard.xcodeproj">
+            BuildableName = "Guess That Sound.app"
+            BlueprintName = "Guess That Sound"
+            ReferencedContainer = "container:Guess That Sound.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F0471971E9E8BE900002A40"
-            BuildableName = "Soundboard.app"
-            BlueprintName = "Soundboard"
-            ReferencedContainer = "container:Soundboard.xcodeproj">
+            BuildableName = "Guess That Sound.app"
+            BlueprintName = "Guess That Sound"
+            ReferencedContainer = "container:Guess That Sound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F0471971E9E8BE900002A40"
-            BuildableName = "Soundboard.app"
-            BlueprintName = "Soundboard"
-            ReferencedContainer = "container:Soundboard.xcodeproj">
+            BuildableName = "Guess That Sound.app"
+            BlueprintName = "Guess That Sound"
+            ReferencedContainer = "container:Guess That Sound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
